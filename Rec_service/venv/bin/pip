@@ -1,4 +1,4 @@
-#!/Users/soniajaiswal/IdeaProjects/JAM/jam-backend/Rec_service/venv/bin/python
+#!/Users/soniajaiswal/IdeaProjects/JAM/jam-backend/Rec_service/venv/bin/python3
 # -*- coding: utf-8 -*-
 import re
 import sys
