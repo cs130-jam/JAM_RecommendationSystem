@@ -1,8 +1,8 @@
 # JAM_RecommendationSystem
 
-To run the Rec_service:
-cd /Rec_Service
-./setup.sh
-./run.sh
+To run the Rec_service:<br/>
+cd /Rec_Service<br/>
+./setup.sh<br/>
+./run.sh<br/> 
 
 
