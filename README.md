@@ -1,23 +1,9 @@
 # JAM_RecommendationSystem
-# API contract for recommendation system
-GET
-/get_match?page=<int>&uid=<string>
 
-Response (200):
-{
-	"totalPages": <int>
-	"users": [<string>, ...] // User UUIDs
-}
+To run the Rec_service:
 
-PUT
-/insert_user
-BODY:
-{
-	"uid": <string>,
-	"genres": {
-		"Chicago Blues": <int>,
-		...
-	}
-}
+cd /Rec_Service
+./setup.sh
+./run.sh
 
-Response (200) if succesful
+
