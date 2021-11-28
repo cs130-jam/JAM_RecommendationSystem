@@ -1,8 +1,8 @@
 ### POST `/get_match?page=<int>&uid=<string>`
 
-` PRODUCES ``application/json``
+PRODUCES ``application/json``
 
-Takes the uid of the given user and the current page index and returns the list of similar users in sorted order (first user being the most relevant) for the given page index. Also return the total number of pages.
+Takes the uid of the given user and the current page index and returns the list of similar users in sorted order (first user being the most relevant) for the given page index. Also returns the total number of pages.
 
 
 **Response (200):**
@@ -19,7 +19,8 @@ Takes the uid of the given user and the current page index and returns the list 
 
 CONSUMES `application/json` 
 
-insert user in recommendation system's database
+insert user in recommendation system's database.
+
 **Body:**
 
 ```javascript
