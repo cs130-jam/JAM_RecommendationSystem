@@ -1,3 +1,4 @@
+##API Documentation
 ### POST `/get_match?page=<int>&uid=<string>`
 
 PRODUCES ``application/json``
